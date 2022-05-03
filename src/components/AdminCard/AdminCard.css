@@ -1,0 +1,22 @@
+.admin-card-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr max-content max-content;
+    align-items: center;
+    /* gap: .2em; */
+    padding-left: .8em;
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: .5em;
+    margin-bottom: .2em;
+}
+
+.admin-card-pict {
+    max-width: 60px;
+}
+
+.admin-svg-card path {
+    fill: #028a7e;
+}
+
+.admin-card-title__span {
+    font-weight: 600;
+}

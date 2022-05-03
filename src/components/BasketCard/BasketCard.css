@@ -1,0 +1,22 @@
+.basket-card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .2em;
+    padding-left: .8em;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: .5em;
+    margin-bottom: .8em;
+}
+
+.basket-card-pict {
+    max-width: 80px;
+}
+
+.basket-svg-card path {
+    fill: #028a7e;
+}
+
+.basket-card-title__span {
+    font-weight: 600;
+}

@@ -1,0 +1,61 @@
+.modal{
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #999;
+    z-index:2;
+}
+.modal__top{
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px;
+    background-color: rgb(142, 190, 190);
+}
+
+.modal-btn-close{
+    padding: .2em .5em;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgb(95, 124, 124);
+    border-radius: .4em;
+}
+
+.modal__body{
+    display: grid;
+    grid-template-columns: max-content max-content;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.picture{
+content: "pict";
+width:  70px;
+height: 100%;
+border: 1px solid #999;
+}
+
+.good-info {
+    padding: 0 .4em;
+display: grid;
+grid-template-columns: 1fr;
+gap: .3em;
+}
+
+.modal-add-img{
+    /* padding: .4em ; */
+    color: #fff;
+    background-color: rgb(95, 124, 124);
+    border-radius: .4em;
+}
+.modal__footer{
+    text-align: center;
+    padding: 8px;
+    background-color: rgb(142, 190, 190);
+}
+
+.modal-btn-add{
+    padding: .4em 1em;
+    color: #fff;
+    background-color: rgb(95, 124, 124);
+    border-radius: .4em;
+}

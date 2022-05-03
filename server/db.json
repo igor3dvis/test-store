@@ -1,0 +1,49 @@
+{
+  "good": [
+    {
+      "id": 1,
+      "category": "sport",
+      "title": "Snickers \"NIKE\"",
+      "body": "Кроссовки NIKE очень хорошие. Материал: кожа",
+      "price": 300
+    },
+    {
+      "id": 2,
+      "category": "casual",
+      "title": "Shoose \"Baldinini\"",
+      "body": "Туфли мужские кожанные. Очень удобные и легкие. Кожа натуральная",
+      "price": 500
+    },
+    {
+      "id": 3,
+      "category": "casual",
+      "title": "Shoose \"Modo\"",
+      "body": "Туфли мужские. Очень удобные и легкие. Кожа натуральная",
+      "price": 400
+    },
+    {
+      "id": 4,
+      "category": "sport",
+      "title": "Snickers \"ADIDAS\"",
+      "body": "Кроссовки ADIDAS очень хорошие. Материал: кожа",
+      "price": 250
+    }
+  ],
+  "basket": [
+    {
+      "title": "Snickers \"NIKE\"",
+      "price": 300,
+      "id": 1
+    },
+    {
+      "title": "Shoose \"Baldinini\"",
+      "price": 500,
+      "id": 2
+    },
+    {
+      "title": "Snickers \"ADIDAS\"",
+      "price": 250,
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+.basket-wrapper{
+    
+    display: flex;
+}
+
+.basket-before{
+    padding-right: .5em;
+    writing-mode: vertical-lr; 
+    text-orientation: upright;
+}
+
+.basket-good-wrapper{
+    width: 100%;
+    margin: 1em;
+}
